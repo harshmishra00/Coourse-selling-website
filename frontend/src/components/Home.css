@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Quintessential&display=swap');
+.marck-script-regular {
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face{
+    font-family: myFont1;
+    src: url(/Users/harshmishra/Desktop/Course-selling-website/frontend/fonts/Quintessential-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp5740157.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+
+header{
+    
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 20px;
+    position: fixed;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    padding-left: 30px;
+    margin-right: 1250px;
+    font-family: "Marck Script", cursive;
+}
+
+.button a{
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 23px;
+    font-family: a;
+    color: black;
+    transition: 0.2s ease;
+    background: none;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.button a:hover{
+    text-decoration: underline;
+    padding: 11px 21px;
+}
+
+
+section{
+    text-align: center;
+    padding: 100px;
+}
+
+.sec1 h1{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: myFont1;
+}
+
+
+.sec1 p{
+    font-size: 22px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 23px;
+    font-family: a;
+    color: black;
+    transition: 0.4s ease;
+    cursor: pointer;
+    background: none;
+    background-color: rgb(49, 172, 49);
+    color: white;
+}
+
+.btn:hover{
+    margin-top: 31px;
+    padding: 11px 21px;
+    font-size: 23.5px;
+    background-color: rgb(43, 133, 43);
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.one h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: "Marck Script", cursive;
+}
+
+.icons{
+    display: flex; 
+    padding-left: 10px;
+    align-items: center;
+}
+.icons a{
+    font-size: 25px;
+}
+
+.icons div{
+    display: flex;
+}
+
+.clr{
+    background-color: aliceblue;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img{
+    width: 100%;
+    height: 200px;
+}
+
+.sp{
+    color: blue;
+}
+
+.btn2{
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 7px 15px;
+    font-size: 20px;
+    font-family: a;
+    color: black;
+    transition: 0.2s ease;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.btnn{
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 23px;
+    font-family: a;
+    color: black;
+    transition: 0.2s ease;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.slider{
+    padding: none;
+}

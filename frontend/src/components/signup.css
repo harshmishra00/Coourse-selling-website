@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+.marck-script-regular {
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.imperial-script-regular {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caveat-brush-regular {
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.box1{
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 560px;
+    margin-top: 14%;
+    margin-left: 35%;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.SignLogo{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+.Head{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: "Marck Script", cursive;
+    text-decoration: underline;
+}
+
+.bhead{
+    font-size: 30px;
+    color: black;
+    font-family: "Imperial Script", cursive;
+}
+
+.box1 form{
+    margin-top: 40px;
+    justify-items: center;
+}
+
+.box1 form label{
+    font-size: 15px;
+    padding-left: 30px;
+    font-family: "Caveat Brush", cursive;
+}
+
+.box1 form input{
+    width: 400px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+    border-radius: 20px;
+    background-color: rgb(208, 216, 250);
+}
+
+.submit button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px black;
+}
+
+.submit button:hover{
+    background-color: blue;
+}
+
+.message{
+    padding-top: 20px;
+}
+
+.message a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.ttle{
+    /* font-size: 30px; */
+    color: black;
+    text-align: center;
+}
+.ttle h3{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.btn3{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: a;
+    color: black;
+    transition: 0.4s ease;
+    cursor: pointer;
+    background: none;
+    background-color: rgb(49, 172, 49);
+    color: white;
+
+}
+
+.admin{
+    font-size: 50px;
+    font-family: myfont1;
+}
